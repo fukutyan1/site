@@ -1,0 +1,60 @@
+.avatar-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ff69b4;
+    display: inline-block;
+}
+
+/* Виправлення для постів */
+.post-card {
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%; /* Додаємо повну висоту */
+    display: flex;
+    flex-direction: column;
+}
+
+.post-card img {
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.post-card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Оформлення блоку пошуку */
+.search-container {
+    background-color: #ffe4ef;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(255, 105, 180, 0.2);
+}
+
+.search-container .input-group {
+    display: flex;
+}
+
+.search-container .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-container .btn-search {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+}
+
+.search-container .btn-search:hover {
+    background-color: #cc3385;
+}
